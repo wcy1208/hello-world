@@ -1,4 +1,22 @@
 #include<iostream>
+using namespace std;
+class Dog{
+public:
+Dog(int a=0){
+    cout<<"调用构造函数";
+    this->a=a;
+}
+void run(){
+    cout<<"狗狗跑起来";
+    cout<<a;
+}
+
+private:
+int a;
+};
+
+
+
 int main(){
   std::cout<<"hello world";
   return 0;
